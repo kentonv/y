@@ -6,7 +6,8 @@
       "user-status": {},
       "bootstrap-3": {},
       "accounts-ui-bootstrap-3": {},
-      "bootboxjs": {}
+      "bootboxjs": {},
+      "accounts-sandstorm": {}
     },
     "packages": {
       "notifications": {
@@ -33,6 +34,11 @@
         "git": "https://github.com/TimHeckel/meteor-bootboxjs.git",
         "tag": "v4.2.1-master.1",
         "commit": "c125969c1f3aef30e2a2ff20252bd3b2e4014b2f"
+      },
+      "accounts-sandstorm": {
+        "git": "https://github.com/sandstorm-io/meteor-accounts-sandstorm.git",
+        "tag": "v0.1.0",
+        "commit": "3b0a0a4c9d6446e712a3ee0f1836f8aca74863ae"
       },
       "timesync": {
         "git": "https://github.com/mizzao/meteor-timesync.git",

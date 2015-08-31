@@ -80,6 +80,16 @@ const pkgdef :Spk.PackageDefinition = (
   # (An alternative is to automatically detect dependencies by watching what
   # the app opens while running in dev mode. To see what that looks like,
   # run `spk init` without the -A option.)
+
+  bridgeConfig = (
+    viewInfo = (
+      permissions = [(name = "black"), (name = "white"), (name = "undo")],
+      roles = [(title = (defaultText = "black"),
+                permissions = [true, false]),
+               (title = (defaultText = "white"),
+                permissions = [false, true])]
+    )
+  )
 );
 
 const myCommand :Spk.Manifest.Command = (
